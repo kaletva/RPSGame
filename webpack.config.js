@@ -8,7 +8,7 @@ const production = process.env.NODE_ENV === 'production';
 
 
 module.exports = {
-    entry: { myAppName: path.resolve(__dirname, "./src/index.tsx") },
+    entry: { RPSGame: path.resolve(__dirname, "./src/index.tsx") },
     output: {
         path: path.resolve(__dirname, "./dist"),
         filename: production ? '[name].[contenthash].js' : '[name].js',
